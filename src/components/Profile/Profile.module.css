@@ -1,28 +1,84 @@
-.wrapper {}
 
-.card{}
-
-.image{}
-
-.name{}
-.tag{}
-.location{}
-.stats{}
-.statsItem{}
-.followers{}
-.followersSpan{
+.wrapper {
+width:500px;
+border: 3px solid black;
+overflow: hidden;
+margin: 0 auto;
+background-color:#fcfbfb;
+border-radius: 20px;
 
 }
 
-.views{
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 0;
 
 }
-.viewsSpan{
+
+.image{
+width: 250px;
+background-color: grey;
+border-radius: 50%;
+margin-bottom: 10px;
+border: 3px solid grey;
 
 }
-.likes{
+
+.name{
+color: black;
+font-weight: 800;
+font-size: 30px;
+margin-bottom: 10px;
+
 
 }
-.likesSpan{
-    
+.tag{
+color: rgb(116, 110, 110);
+font-weight: 600;
+font-size: 20px;
+   
+}  
+.location{
+font-family: "Roboto", sans-serif;
+color: rgb(116, 110, 110);
+font-weight: 800;
+font-size: 25px;
+ 
+}
+.stats{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #dcdcdc;
+border-top: 3px solid grey;
+
+}
+.statsItem:not(:last-child){
+border-right: 3px solid grey;
+}
+.statsItem{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+margin: 0 auto;
+padding: 10px;
+   
+}
+.statsItemLabel{
+color: black;
+font-weight: 700;
+font-size: 30px;
+
+}
+.statsItemSpan{
+color: black;
+font-weight: 900;
+font-size: 30px;
+
 }

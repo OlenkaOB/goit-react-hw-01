@@ -1,9 +1,8 @@
-import Profile from '../Profile';
-import './App.css';
+import Profile from '../Profile/Profile';
 import 'modern-normalize';
 import userData from '../../assets/userData.json';
-import FriendList from '../FriendList';
-import friends from '../../assets/friends.json';
+// import FriendList from '../FriendList';
+// import friends from '../../assets/friends.json';
 
 
 
@@ -18,6 +17,7 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      {/* <FriendList friends ={friends}/> */}
     </div>
   );
 };

@@ -4,13 +4,13 @@ const Profile = ({
     tag,
     location,
     image,
-    stats:{followers, views, likes}
+    stats: { followers, views, likes }
 
 }) => {
     return (
         <div className={s.wrapper}>
   <div className={s.card}>
-    <img className={s.image} alt ='User Avatar'
+    <img className={s.image} alt ='Avatar'
       src={image}
       />
     <p className={s.name}>{name}</p>
@@ -20,16 +20,16 @@ const Profile = ({
 
   <ul className={s.stats}>
     <li className={s.statsItem}>
-      <span className={s.followers}>Followers</span>
-      <span className={s.followersSpan}>{followers}</span>
+      <span className={s.statsItemLabel}>Followers</span>
+      <span className={s.statsItemSpan}>{followers}</span>
     </li>
     <li  className={s.statsItem}>
-      <span className={s.views}>Views</span>
-      <span className={s.viewsSpan }>{views}</span>
+      <span className={s.statsItemLabel}>Views</span>
+      <span className={s.statsItemSpan }>{views}</span>
     </li>
     <li  className={s.statsItem}>
-      <span className={s.likes}>Likes</span>
-      <span className={s.likesSpan}>{likes}</span>
+      <span className={s.statsItemLabel}>Likes</span>
+      <span className={s.statsItemSpan}>{likes}</span>
     </li>
   </ul>
 </div>
