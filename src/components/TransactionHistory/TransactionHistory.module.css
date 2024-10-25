@@ -1,15 +1,18 @@
 .table{
     border: 1px solid black;
     margin: 0 auto;
-    width: 500px;
+    width: 800px;
     justify-content: center;
+
     
 }
 .title{
   background-color: black;
   color: white;
- font-weight: 200;
-   font-size: 18px;
+ font-weight: 500;
+   font-size: 20px;
+   justify-content: center;
+padding: 10px;
 
 }
 .link{
@@ -17,7 +20,7 @@
 
 }
 .link:nth-child(even) {
-    background-color: grey;
+    background-color: rgb(194, 189, 189);
 }
 .link:nth-child(odd){
     background-color: white;
@@ -25,7 +28,8 @@
 .result{
 border: 1px solid black;
 color: black;
-font-weight: 200;
-font-size: 16px;
+font-weight: 500;
+font-size: 20px;
+padding: 10px;
 
 }
